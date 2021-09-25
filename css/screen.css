@@ -227,19 +227,19 @@ a:focus {
 /* size modifiers */
 
 .o-row--lg {
-  padding-top: 48px;
+  padding-top: var(--global-whitespace-xl);
   padding-bottom: 24px;
 }
 
 .o-row--xl {
   padding-top: 72px;
-  padding-bottom: 48px;
+  padding-bottom: var(--global-whitespace-xl);
 }
 
 @media (min-width: 768px) {
   .o-row {
-    padding-left: 48px;
-    padding-right: 48px;
+    padding-left: var(--global-whitespace-xl);
+    padding-right: var(--global-whitespace-xl);
   }
 }
 
@@ -280,7 +280,7 @@ a:focus {
 @media (min-width: 768px) {
   .o-section--lg + .o-section--lg,
   .o-section--xl + .o-section--xl {
-    padding-top: 48px;
+    padding-top: var(--global-whitespace-xl);
   }
 }
 
@@ -503,13 +503,13 @@ a:focus {
 }
 
 .c-card__body {
-  padding: 48px;
+  padding: var(--global-whitespace-xl);
 }
 
 .c-card__title {
   display: flex;
   justify-content: center;
-  padding-top: 48px;
+  padding-top: var(--global-whitespace-xl);
 
   font-family: "Inter Web Bold", Helvetica, arial, sans-serif;
   font-size: 18px;
@@ -520,14 +520,14 @@ a:focus {
   justify-content: center;
 
   border-top: 1px solid var(--global-color-text-x);
-  padding: 24px 24px 0 24px;
+  padding: var(--global-whitespace) var(--global-whitespace) 0 var(--global-whitespace);
 
   text-align: center;
 }
 
 @media (max-width: 600px) {
   .c-card__body {
-    padding: 50px 24px;
+    padding: var(--global-whitespace-xl) var(--global-whitespace);
   }
 }
 
